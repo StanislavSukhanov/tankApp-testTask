@@ -1,0 +1,141 @@
+// @font-face {
+//   font-family: "Montserrat-Medium";
+//   src: url("../fonts/Montserrat-Medium/Montserrat-Medium.eot");
+//   /* IE9 Compat Modes */
+//   src: url("../fonts/Montserrat-Medium/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), 
+//       url("../fonts/Montserrat-Medium/Montserrat-Medium.woff2") format("woff2"), 
+//       url("../fonts/Montserrat-Medium/Montserrat-Medium.woff") format("woff"), 
+//       url("../fonts/Montserrat-Medium/Montserrat-Medium.ttf") format("truetype"), 
+//       url("../fonts/Montserrat-Medium/Montserrat-Medium.svg#svgMontserrat-Medium") format("svg");
+
+//   /* Legacy iOS */
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// $mm:"Montserrat-Medium";
+
+
+// LOGO FONT
+@font-face{
+  font-family: "Nunito-Regular";
+  src: url("../../fonts/Nunito-Regular/Nunito-Regular.eot");
+   /* IE9 Compat Modes */
+  src: url("../../fonts/Nunito-Regular/Nunito-Regular.eot?#iefix") format("embedded-opentype"), 
+      url("../../fonts/Nunito-Regular/Nunito-Regular.woff2") format("woff2"), 
+      url("../../fonts/Nunito-Regular/Nunito-Regular.woff") format("woff"), 
+      url("../../fonts/Nunito-Regular/Nunito-Regular.ttf") format("truetype"), 
+      url("../../fonts/Nunito-Regular/Nunito-Regular.svg#svgNunito-Regular") format("svg");
+
+  /** legacy IOS */
+  font-weight: normal;
+  font-style: normal;
+}
+$nr: "Nunito-Regular";
+
+
+
+// HEADER MENU FONT 
+@font-face{
+  font-family: "MyriadPro-Regular";
+  src: url("../../fonts/MyriadPro-Regular/MyriadPro-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/MyriadPro-Regular/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), 
+      url("../../fonts/MyriadPro-Regular/MyriadPro-Regular.woff2") format("woff2"), 
+      url("../../fonts/MyriadPro-Regular/MyriadPro-Regular.woff") format("woff"), 
+      url("../../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf") format("truetype"), 
+      url("../../fonts/MyriadPro-Regular/MyriadPro-Regular.svg#svgMyriadPro-Regular") format("svg");
+
+  /** legacy IOS */
+  font-weight: normal;
+  font-style: normal;
+}
+$mpr: "MyriadPro-Regular";
+
+// BANNER BIG message 
+@font-face {
+  font-family: "Ubuntu-Bold";
+  src: url("../../fonts/Ubuntu-Bold/Ubuntu-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/Ubuntu-Bold/Ubuntu-Bold.eot?#iefix") format("embedded-opentype"), 
+      url("../../fonts/Ubuntu-Bold/Ubuntu-Bold.woff2") format("woff2"), 
+      url("../../fonts/Ubuntu-Bold/Ubuntu-Bold.woff") format("woff"), 
+      url("../../fonts/Ubuntu-Bold/Ubuntu-Bold.ttf") format("truetype"), 
+      url("../../fonts/Ubuntu-Bold/Ubuntu-Bold.svg#svgUbuntu-Bold") format("svg");
+
+  /** legacy IOS */
+  font-weight: normal;
+  font-style: normal;
+}
+$ub: "Ubuntu-Bold";
+
+// Banner Small message
+@font-face{
+  font-family: "Ubuntu-Lightitalic";
+  src: url("../../fonts/Ubuntu-LightItalic/Ubuntu-LightItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/Ubuntu-LightItalic/Ubuntu-LightItalic.eot?#iefix") format("embedded-opentype"), 
+      url("../../fonts/Ubuntu-LightItalic/Ubuntu-LightItalic.woff2") format("woff2"), 
+      url("../../fonts/Ubuntu-LightItalic/Ubuntu-LightItalic.woff") format("woff"), 
+      url("../../fonts/Ubuntu-LightItalic/Ubuntu-LightItalic.ttf") format("truetype"), 
+      url("../../fonts/Ubuntu-LightItalic/Ubuntu-LightItalic.svg#svgUbuntu-Lightitalic") format("svg");
+
+  /** legacy IOS */
+  font-weight: normal;
+  font-style: normal;
+}
+$uli: "Ubuntu-Lightitalic";
+
+// signup for message 
+@font-face{
+  font-family: "Ubuntu-Medium";
+  src: url("../../fonts/Ubuntu-Medium/Ubuntu-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/Ubuntu-Medium/Ubuntu-Medium.eot?#iefix") format("embedded-opentype"), 
+      url("../../fonts/Ubuntu-Medium/Ubuntu-Medium.woff2") format("woff2"), 
+      url("../../fonts/Ubuntu-Medium/Ubuntu-Medium.woff") format("woff"), 
+      url("../../fonts/Ubuntu-Medium/Ubuntu-Medium.ttf") format("truetype"), 
+      url("../../fonts/Ubuntu-Medium/Ubuntu-Medium.svg#svgUbuntu-Medium") format("svg");
+
+  /** legacy IOS */
+  font-weight: normal;
+  font-style: normal;
+}
+$um: "Ubuntu-Medium";
+
+// helptext signup form
+@font-face{
+  font-family: "Ubuntu-Light";
+  src: url("../../fonts/Ubuntu-Light/Ubuntu-Light.eot");
+   /* IE9 Compat Modes */
+   src: url("../../fonts/Ubuntu-Light/Ubuntu-Light.eot?#iefix") format("embedded-opentype"), 
+        url("../../fonts/Ubuntu-Light/Ubuntu-Light.woff2") format("woff2"), 
+        url("../../fonts/Ubuntu-Light/Ubuntu-Light.woff") format("woff"), 
+        url("../../fonts/Ubuntu-Light/Ubuntu-Light.ttf") format("truetype"), 
+        url("../../fonts/Ubuntu-Light/Ubuntu-Light.svg#svgUbuntu-Light") format("svg");
+
+  /** legacy IOS */
+  font-weight: normal;
+  font-style: normal;  
+
+}
+$ul: 'Ubuntu-Light';
+
+// benefit paragraph
+@font-face{
+  font-family: "OpenSans-Regular";
+  src: url("../../fonts/OpenSans-Regular/OpenSans-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/OpenSans-Regular/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), 
+  url("../../fonts/OpenSans-Regular/OpenSans-Regular.woff2") format("woff2"), 
+  url("../../fonts/OpenSans-Regular/OpenSans-Regular.woff") format("woff"), 
+  url("../../fonts/OpenSans-Regular/OpenSans-Regular.ttf") format("truetype"), 
+  url("../../fonts/OpenSans-Regular/OpenSans-Regular.svg#svgOpenSans-Regular") format("svg");
+
+/** legacy IOS */
+font-weight: normal;
+font-style: normal;  
+}
+
+$osr: "OpenSans-Regular";
+

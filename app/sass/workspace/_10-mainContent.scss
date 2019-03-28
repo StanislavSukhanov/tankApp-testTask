@@ -1,0 +1,87 @@
+@import "app/sass/workspace/_2-fonts.scss";
+@import "app/sass/workspace/_3-variables.scss";
+
+// main
+
+
+.first {
+    background-color: #66abdb;
+    position: relative;
+    padding-top: 33rem;
+}
+
+.message-and-form{
+    padding-left: 4.5rem;
+    
+}
+
+.big-message{
+    display: inline-block;
+    width: 50%;
+    font-family: $ub;
+    font-size: $f52;
+    color: $white;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    line-height: 7.2rem;
+    
+    
+}
+
+.small-message{
+    font-family: $ul;
+    font-size: $f24;
+    line-height: 4.7rem;
+    color: $white;
+    padding-top: 2.5rem;
+}
+
+.signup{
+    font-family: $um;
+    font-size: $f16;
+    color: $white;
+    text-transform: capitalize;
+    line-height: 13.3rem;
+}
+
+.free{
+    font-family: $ub;
+    text-transform: uppercase;
+    background-color: #ffce54;
+    border-radius: .6rem;
+    padding: .6rem .6rem;
+}
+
+.signup input{
+    height: 5.5rem;
+    width: 42.2rem;
+    border-radius: 1rem;
+    
+ 
+}
+.signup input::placeholder{
+    padding: 2.8rem;
+    font-family: $ul;
+    font-size: $f18;
+    line-height: $f18;
+    color:#bec2c8;
+    padding-top: .5rem;
+    
+}
+
+.signup input[type="email"]{
+    font-size: $f18;
+    color:#6f7175;
+}
+
+#btn-sign{
+    height: 5.5rem;
+    width: 11.3rem;
+    background-color: #77c344;
+    color: $white;
+    text-transform: uppercase;
+    font-family: $um;
+    font-size: $f18;
+    margin-left: 3.5rem;
+    
+}
