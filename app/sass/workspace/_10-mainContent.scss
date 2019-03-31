@@ -6,6 +6,7 @@
 
 .first {
     background-color: #66abdb; // make a gradient
+    position: relative;
 }
 .first-content{
     position: relative;
@@ -110,12 +111,6 @@
 }
     
 
-// .banner{
-//     outline: 1px solid red;
-// }
-
-
-
 .hand-phone{
     position: absolute;
     display: inline-block;
@@ -125,102 +120,32 @@
     height: 90%;
     
 }
-
-// .message-and-form{
-//     z-index: 2;
-//     display: inline-block;
-//     padding-left: 4.5rem;
-//     padding-bottom: 25rem;
-// }
-
-// .big-message{
-//     // padding-top: 32.5rem;
-//     display: inline-block;
-//     font-family: $ub;
-//     font-size: $f52;
-//     color: $white;
-//     letter-spacing: 0.1rem;
-//     text-transform: uppercase;
-//     // line-height: 7.2rem;
-// }
-
-// .small-message{
-//     font-family: $ul;
-//     font-size: $f24;
-//     line-height: 4.7rem;
-//     color: $white;
-//     padding-top: 2.5rem;
-//     letter-spacing: 0.1rem;
-// }
-
-// .signup{
-//     font-family: $um;
-//     font-size: $f16;
-//     color: $white;
-//     text-transform: capitalize;
-//     line-height: 13.3rem;
-// }
-
-// .free{
-//     font-family: $ub;
-//     text-transform: uppercase;
-//     background-color: #ffce54;
-//     border-radius: .6rem;
-//     padding: .6rem .6rem;
-// }
-
-// .signup input{
-//     height: 5.5rem;
-//     width: 42.2rem;
-//     border-radius: 1rem;
-//     border: none;
+.cloud{
+    position: absolute;
+    z-index: 3;
     
-// }
-// .signup input::placeholder{
-//     padding: 2.8rem;
-//     font-family: $ul;
-//     font-size: $f18;
-//     line-height: $f18;
-//     color:#bec2c8;
-//     padding-top: .5rem;
+}
+.top-left{
+    top: 25%;
+    left: 9.5%;
     
-// }
+}
+.bottom-left{
+    bottom: 8.8%;
+    left: 12%;
+}
+.top-right{
+    top: 35%;
+    right: 16%;
+}
+.bottom-right{
+    bottom: 10.6%;
+    right: 5%;
+}
 
-// .signup input[type="email"]{
-//     font-size: $f18;
-//     color:#6f7175;
-//     padding-left: 2rem;
-
-// }
-
-// .btn-sign{
-//     height: 5.5rem;
-//     width: 11.3rem;
-//     background-color: #77c344;
-//     color: $white;
-//     text-transform: uppercase;
-//     font-family: $um;
-//     font-size: $f18;
-//     margin-left: 3.5rem;
-//     border-color: #77c344;
-//     border-radius: 1rem;
-//     transition: all .1s ease-in-out;
-// }
-
-// .btn-sign:hover{
-//     background-color: #70b840;
-// }
-
-
-
-// .hand-phone{
-//     display: inline-block;
-//     position: relative;
-//     float: right;
-// }
-
-// .hand-phone>img{
-//   position: absolute;
-//   bottom: 5rem;
-//   right: 0;
-// }
+.second{
+    background-color: #f8f8f8;
+}
+.ticker{
+    display: inline-block;
+}

@@ -123,7 +123,8 @@ table {
   font-style: normal; }
 
 .first {
-  background-color: #66abdb; }
+  background-color: #66abdb;
+  position: relative; }
 
 .first-content {
   position: relative;
@@ -239,6 +240,32 @@ table {
   right: 0;
   bottom: 0;
   height: 90%; }
+
+.cloud {
+  position: absolute;
+  z-index: 3; }
+
+.top-left {
+  top: 25%;
+  left: 9.5%; }
+
+.bottom-left {
+  bottom: 8.8%;
+  left: 12%; }
+
+.top-right {
+  top: 35%;
+  right: 16%; }
+
+.bottom-right {
+  bottom: 10.6%;
+  right: 5%; }
+
+.second {
+  background-color: #f8f8f8; }
+
+.ticker {
+  display: inline-block; }
 
 @font-face {
   font-family: "Nunito-Regular";
