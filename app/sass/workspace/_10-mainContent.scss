@@ -5,83 +5,222 @@
 
 
 .first {
-    background-color: #66abdb;
-    position: relative;
-    padding-top: 33rem;
+    background-color: #66abdb; // make a gradient
 }
+.first-content{
+    position: relative;
+    padding-top: 32rem; // to delete later
+    padding-bottom: 25.2rem;
+}
+
 
 .message-and-form{
-    padding-left: 4.5rem;
-    
-}
-
-.big-message{
     display: inline-block;
-    width: 50%;
-    font-family: $ub;
-    font-size: $f52;
-    color: $white;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-    line-height: 7.2rem;
+    z-index: 2;
+    padding-left: 4.5rem;
+
+    .big-message{
+
+        // display: inline-block;
+        
+        font-family: $ub;
+        font-size: $f52;
+        color: $white;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+        line-height: 7.2rem;
+    }
+    .small-message{
+        font-family: $ul;
+        font-size: $f24;
+        line-height: 4.7rem;
+        color: $white;
+        padding-top: 2.5rem;
+        letter-spacing: 0.1rem;
+    }
+        .small-message{
+        font-family: $ul;
+        font-size: $f24;
+        line-height: 4.7rem;
+        color: $white;
+        padding-top: 2.5rem;
+        letter-spacing: 0.1rem;
+        padding-bottom: 6.5rem;
+    }
+
+    .signup{
+        font-family: $um;
+        font-size: $f16;
+        color: $white;
+        text-transform: capitalize;
+        
+    }
+
+    .free{
+        font-family: $ub;
+        text-transform: uppercase;
+        background-color: #ffce54;
+        border-radius: .6rem;
+        padding: .6rem .6rem;
+    }
+
+    .signup input{
+        margin-top: 4rem;
+        height: 5.5rem;
+        width: 42.2rem;
+        border-radius: 1rem;
+        border: none;
+        
+    }
+    .signup input::placeholder{
+        padding: 2.8rem;
+        font-family: $ul;
+        font-size: $f18;
+        line-height: $f18;
+        color:#bec2c8;
+        padding-top: .5rem;
+        
+    }
+
+    .signup input[type="email"]{
+        font-size: $f18;
+        color:#6f7175;
+        padding-left: 2rem;
+
+    }
+
+    .btn-sign{
+        height: 5.5rem;
+        width: 11.3rem;
+        background-color: #77c344;
+        color: $white;
+        text-transform: uppercase;
+        font-family: $um;
+        font-size: $f18;
+        margin-left: 3.5rem;
+        border-color: #77c344;
+        border-radius: 1rem;
+        transition: all .1s ease-in-out;
+    }
+
+    .btn-sign:hover{
+        background-color: #70b840;
+    }
+
+}
     
+
+// .banner{
+//     outline: 1px solid red;
+// }
+
+
+
+.hand-phone{
+    position: absolute;
+    display: inline-block;
+    padding-top: 10rem;
+    right: 0;
+    bottom: 0;
+    height: 90%;
     
 }
 
-.small-message{
-    font-family: $ul;
-    font-size: $f24;
-    line-height: 4.7rem;
-    color: $white;
-    padding-top: 2.5rem;
-}
+// .message-and-form{
+//     z-index: 2;
+//     display: inline-block;
+//     padding-left: 4.5rem;
+//     padding-bottom: 25rem;
+// }
 
-.signup{
-    font-family: $um;
-    font-size: $f16;
-    color: $white;
-    text-transform: capitalize;
-    line-height: 13.3rem;
-}
+// .big-message{
+//     // padding-top: 32.5rem;
+//     display: inline-block;
+//     font-family: $ub;
+//     font-size: $f52;
+//     color: $white;
+//     letter-spacing: 0.1rem;
+//     text-transform: uppercase;
+//     // line-height: 7.2rem;
+// }
 
-.free{
-    font-family: $ub;
-    text-transform: uppercase;
-    background-color: #ffce54;
-    border-radius: .6rem;
-    padding: .6rem .6rem;
-}
+// .small-message{
+//     font-family: $ul;
+//     font-size: $f24;
+//     line-height: 4.7rem;
+//     color: $white;
+//     padding-top: 2.5rem;
+//     letter-spacing: 0.1rem;
+// }
 
-.signup input{
-    height: 5.5rem;
-    width: 42.2rem;
-    border-radius: 1rem;
+// .signup{
+//     font-family: $um;
+//     font-size: $f16;
+//     color: $white;
+//     text-transform: capitalize;
+//     line-height: 13.3rem;
+// }
+
+// .free{
+//     font-family: $ub;
+//     text-transform: uppercase;
+//     background-color: #ffce54;
+//     border-radius: .6rem;
+//     padding: .6rem .6rem;
+// }
+
+// .signup input{
+//     height: 5.5rem;
+//     width: 42.2rem;
+//     border-radius: 1rem;
+//     border: none;
     
- 
-}
-.signup input::placeholder{
-    padding: 2.8rem;
-    font-family: $ul;
-    font-size: $f18;
-    line-height: $f18;
-    color:#bec2c8;
-    padding-top: .5rem;
+// }
+// .signup input::placeholder{
+//     padding: 2.8rem;
+//     font-family: $ul;
+//     font-size: $f18;
+//     line-height: $f18;
+//     color:#bec2c8;
+//     padding-top: .5rem;
     
-}
+// }
 
-.signup input[type="email"]{
-    font-size: $f18;
-    color:#6f7175;
-}
+// .signup input[type="email"]{
+//     font-size: $f18;
+//     color:#6f7175;
+//     padding-left: 2rem;
 
-#btn-sign{
-    height: 5.5rem;
-    width: 11.3rem;
-    background-color: #77c344;
-    color: $white;
-    text-transform: uppercase;
-    font-family: $um;
-    font-size: $f18;
-    margin-left: 3.5rem;
-    
-}
+// }
+
+// .btn-sign{
+//     height: 5.5rem;
+//     width: 11.3rem;
+//     background-color: #77c344;
+//     color: $white;
+//     text-transform: uppercase;
+//     font-family: $um;
+//     font-size: $f18;
+//     margin-left: 3.5rem;
+//     border-color: #77c344;
+//     border-radius: 1rem;
+//     transition: all .1s ease-in-out;
+// }
+
+// .btn-sign:hover{
+//     background-color: #70b840;
+// }
+
+
+
+// .hand-phone{
+//     display: inline-block;
+//     position: relative;
+//     float: right;
+// }
+
+// .hand-phone>img{
+//   position: absolute;
+//   bottom: 5rem;
+//   right: 0;
+// }

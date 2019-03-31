@@ -123,104 +123,122 @@ table {
   font-style: normal; }
 
 .first {
-  background-color: #66abdb;
+  background-color: #66abdb; }
+
+.first-content {
   position: relative;
-  padding-top: 33rem; }
+  padding-top: 32rem;
+  padding-bottom: 25.2rem; }
 
 .message-and-form {
-  padding-left: 4.5rem; }
-
-.big-message {
   display: inline-block;
-  width: 50%;
-  font-family: "Ubuntu-Bold";
-  font-size: 5.2rem;
-  color: #f7f6f2;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
-  line-height: 7.2rem; }
+  z-index: 2;
+  padding-left: 4.5rem; }
+  .message-and-form .big-message {
+    font-family: "Ubuntu-Bold";
+    font-size: 5.2rem;
+    color: #f7f6f2;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    line-height: 7.2rem; }
+  .message-and-form .small-message {
+    font-family: "Ubuntu-Light";
+    font-size: 2.4rem;
+    line-height: 4.7rem;
+    color: #f7f6f2;
+    padding-top: 2.5rem;
+    letter-spacing: 0.1rem; }
+  .message-and-form .small-message {
+    font-family: "Ubuntu-Light";
+    font-size: 2.4rem;
+    line-height: 4.7rem;
+    color: #f7f6f2;
+    padding-top: 2.5rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 6.5rem; }
+  .message-and-form .signup {
+    font-family: "Ubuntu-Medium";
+    font-size: 1.6rem;
+    color: #f7f6f2;
+    text-transform: capitalize; }
+  .message-and-form .free {
+    font-family: "Ubuntu-Bold";
+    text-transform: uppercase;
+    background-color: #ffce54;
+    -webkit-border-radius: .6rem;
+            border-radius: .6rem;
+    padding: .6rem .6rem; }
+  .message-and-form .signup input {
+    margin-top: 4rem;
+    height: 5.5rem;
+    width: 42.2rem;
+    -webkit-border-radius: 1rem;
+            border-radius: 1rem;
+    border: none; }
+  .message-and-form .signup input::-webkit-input-placeholder {
+    padding: 2.8rem;
+    font-family: "Ubuntu-Light";
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: #bec2c8;
+    padding-top: .5rem; }
+  .message-and-form .signup input::-moz-placeholder {
+    padding: 2.8rem;
+    font-family: "Ubuntu-Light";
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: #bec2c8;
+    padding-top: .5rem; }
+  .message-and-form .signup input:-ms-input-placeholder {
+    padding: 2.8rem;
+    font-family: "Ubuntu-Light";
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: #bec2c8;
+    padding-top: .5rem; }
+  .message-and-form .signup input::-ms-input-placeholder {
+    padding: 2.8rem;
+    font-family: "Ubuntu-Light";
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: #bec2c8;
+    padding-top: .5rem; }
+  .message-and-form .signup input::placeholder {
+    padding: 2.8rem;
+    font-family: "Ubuntu-Light";
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: #bec2c8;
+    padding-top: .5rem; }
+  .message-and-form .signup input[type="email"] {
+    font-size: 1.8rem;
+    color: #6f7175;
+    padding-left: 2rem; }
+  .message-and-form .btn-sign {
+    height: 5.5rem;
+    width: 11.3rem;
+    background-color: #77c344;
+    color: #f7f6f2;
+    text-transform: uppercase;
+    font-family: "Ubuntu-Medium";
+    font-size: 1.8rem;
+    margin-left: 3.5rem;
+    border-color: #77c344;
+    -webkit-border-radius: 1rem;
+            border-radius: 1rem;
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out; }
+  .message-and-form .btn-sign:hover {
+    background-color: #70b840; }
 
-.small-message {
-  font-family: "Ubuntu-Light";
-  font-size: 2.4rem;
-  line-height: 4.7rem;
-  color: #f7f6f2;
-  padding-top: 2.5rem; }
-
-.signup {
-  font-family: "Ubuntu-Medium";
-  font-size: 1.6rem;
-  color: #f7f6f2;
-  text-transform: capitalize;
-  line-height: 13.3rem; }
-
-.free {
-  font-family: "Ubuntu-Bold";
-  text-transform: uppercase;
-  background-color: #ffce54;
-  -webkit-border-radius: .6rem;
-          border-radius: .6rem;
-  padding: .6rem .6rem; }
-
-.signup input {
-  height: 5.5rem;
-  width: 42.2rem;
-  -webkit-border-radius: 1rem;
-          border-radius: 1rem; }
-
-.signup input::-webkit-input-placeholder {
-  padding: 2.8rem;
-  font-family: "Ubuntu-Light";
-  font-size: 1.8rem;
-  line-height: 1.8rem;
-  color: #bec2c8;
-  padding-top: .5rem; }
-
-.signup input::-moz-placeholder {
-  padding: 2.8rem;
-  font-family: "Ubuntu-Light";
-  font-size: 1.8rem;
-  line-height: 1.8rem;
-  color: #bec2c8;
-  padding-top: .5rem; }
-
-.signup input:-ms-input-placeholder {
-  padding: 2.8rem;
-  font-family: "Ubuntu-Light";
-  font-size: 1.8rem;
-  line-height: 1.8rem;
-  color: #bec2c8;
-  padding-top: .5rem; }
-
-.signup input::-ms-input-placeholder {
-  padding: 2.8rem;
-  font-family: "Ubuntu-Light";
-  font-size: 1.8rem;
-  line-height: 1.8rem;
-  color: #bec2c8;
-  padding-top: .5rem; }
-
-.signup input::placeholder {
-  padding: 2.8rem;
-  font-family: "Ubuntu-Light";
-  font-size: 1.8rem;
-  line-height: 1.8rem;
-  color: #bec2c8;
-  padding-top: .5rem; }
-
-.signup input[type="email"] {
-  font-size: 1.8rem;
-  color: #6f7175; }
-
-#btn-sign {
-  height: 5.5rem;
-  width: 11.3rem;
-  background-color: #77c344;
-  color: #f7f6f2;
-  text-transform: uppercase;
-  font-family: "Ubuntu-Medium";
-  font-size: 1.8rem;
-  margin-left: 3.5rem; }
+.hand-phone {
+  position: absolute;
+  display: inline-block;
+  padding-top: 10rem;
+  right: 0;
+  bottom: 0;
+  height: 90%; }
 
 @font-face {
   font-family: "Nunito-Regular";
@@ -290,7 +308,8 @@ table {
   max-width: 82.66%;
   margin: 0 auto;
   left: 0;
-  right: 0; }
+  right: 0;
+  position: relative; }
 
 .outline {
   outline: 1px solid green; }
