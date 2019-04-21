@@ -267,6 +267,58 @@ table {
 .ticker {
   display: inline-block; }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }
+
+.ticker-wrap {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  height: 16rem;
+  background-color: #f8f8f8;
+  padding-left: 100%;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box; }
+  .ticker-wrap .ticker {
+    display: inline-block;
+    height: 4rem;
+    line-height: 4rem;
+    white-space: nowrap;
+    padding-right: 100%;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s; }
+    .ticker-wrap .ticker__item {
+      vertical-align: middle;
+      display: inline-block;
+      padding: 5.6rem 5.6rem; }
+
 @font-face {
   font-family: "Nunito-Regular";
   src: url("../../fonts/Nunito-Regular/Nunito-Regular.eot");
