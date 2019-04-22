@@ -31,7 +31,6 @@ $duration: 15s;
 }
 
 .ticker-wrap {
-  position: fixed;
   width: 100%;
   overflow: hidden;
   height: 16rem;
@@ -40,7 +39,7 @@ $duration: 15s;
   box-sizing: content-box;
 
   .ticker {
-
+    // overflow: hidden;
     display: inline-block;
     height: 4rem;
     line-height: 4rem;  

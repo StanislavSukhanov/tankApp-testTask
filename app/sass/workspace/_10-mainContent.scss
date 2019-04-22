@@ -144,8 +144,57 @@
 }
 
 .second{
+    position: relative;
     background-color: #f8f8f8;
+    width: 100%;
+    overflow: hidden;
 }
-.ticker{
-    display: inline-block;
+
+
+.third{
+    position: relative;
+    width: 100%;
+
+    .our-benefits{
+        font-family: $mpr;
+        font-size: $f40;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.15rem;
+        color: #5d6471;
+        padding: 7.5rem 0;
+        
+    }
+
+    .benefits-list{
+        width: 40%;
+        display: inline-block;
+        list-style-type: none;
+
+    }
+
+    .macbook {
+        display: inline-block;
+        right: 0;
+        position: absolute;
+        // width: 60%;
+        // position: absolute;
+        // right: 0;
+    }
+    
+    .maps{
+        position: absolute;
+        width: 83%;
+        height: 81.3%;
+        top: 6.5%;
+        right: 0;
+        background-color: #fff;
+        
+    }
+    
 }
+
+
+
+
+
